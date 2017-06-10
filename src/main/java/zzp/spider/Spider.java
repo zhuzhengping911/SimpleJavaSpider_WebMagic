@@ -1,4 +1,4 @@
-package zzp.util;
+package zzp.spider;
 
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
