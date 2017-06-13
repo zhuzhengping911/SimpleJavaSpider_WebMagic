@@ -17,6 +17,7 @@ public class BossPipeline implements Pipeline {
         if(boss==null){
             return;
         }
+        System.out.println(boss.toString());
 //        Connection conn = null;
 //        try {
             //加载驱动类(注册驱动类)
