@@ -82,6 +82,6 @@ public class BossProcessor implements PageProcessor {
                 .addPipeline(new BossPipeline())
                 .thread(1)
                 .run();
-        
+
     }
 }
