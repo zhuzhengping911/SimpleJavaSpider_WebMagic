@@ -26,6 +26,7 @@ public class ZhiHuSpider implements PageProcessor {
             .addCookie("z_c0", "your cookie")//"Mi4wQUFEQXVvUWtBQUFBWUVCcmp6V3BDUmNBQUFCaEFsVk5EOUJYV1FESTRJY0RKMkF2OHJBV0dFMHBxRUhtSGdRRk1R|1496335729|ec3817c6eb7a20d24c891ad62348f6af951b1021")
             .setUserAgent("Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36");
     //话题精华页
+    
     //https://www.zhihu.com/topic/19551388/top-answers
     private static final String URL_topAnswer = "https://www\\.zhihu\\.com/topic/\\d+/top-answers";
     private static final String URL_topAnswerPage = "https://www\\.zhihu\\.com/topic/\\d+/top-answers\\?page=\\d";
