@@ -36,7 +36,7 @@ public class ZhiHuSpider implements PageProcessor {
     //问题的索引
     //https://www.zhihu.com/question/20902967
     private static final String URL_question = "^https://www\\.zhihu\\.com/question/\\d+$";
-    
+
     //https://www.baidu.com
     private static final String test = "https://www\\.baidu\\.com";
     //https://www.zhihu.com/question/19647535/answer/110944270
