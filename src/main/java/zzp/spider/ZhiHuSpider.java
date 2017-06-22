@@ -56,6 +56,7 @@ public class ZhiHuSpider implements PageProcessor {
             List<String> url = new ArrayList<String>();
             for (int i=0;i<urlList.size();i=i+2){
                 url.add(urlList.get(i));
+                
             }
             String filePath = "/Users/zhuzhengping/Desktop/未命名文件夹";
             try {
